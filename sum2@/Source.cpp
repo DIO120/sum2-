@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-double sum(int a, int b) {
+double sum(double a, double b) {
 	return a + b;
 }
 int main() {
-	int a, b;
+	double a, b;
 	cin >> a >> b;
 	cout << sum(a, b) << endl;
 
